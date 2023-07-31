@@ -1,0 +1,240 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+#moveHome {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  background: url(images/chimesSitePic2.jpg);
+  display: table;
+  top: 0;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+
+#moveHome .inner {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  max-width: none;
+}
+
+.landing-content {
+  max-width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.landing-content h1 {
+  font-family: rale, sans-serif;
+  color: #F9F3F4;
+  text-shadow: 0px 0px 300px #000;
+  font-size: 500%;
+}
+.landing-content h3 {
+  font-family: rale, sans-serif;
+  color: #F9F3F4;
+  text-shadow: 0px 0px 300px #000;
+  font-size: 200%;
+  background-color: rgba(100,100,100,.75);
+}
+.landing-content .btn {
+  border-radius: 35px;
+  font-family: osw, sans-serif;
+  color: #F9F3F4;
+  font-size: 135%;
+  padding: 10px 20px;
+  border: solid #F9F3F4 3px;
+  text-decoration: none;
+  text-align: center;
+  background-color:rgba(100,100,100,0.5);
+}
+
+.invis {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+  padding-top: 30px;
+}
+.landing-content .btn:hover {
+  color: #f9f3f4;
+  border: solid #f9f3f4 3px;
+  background-color: #333333;
+}
+
+.buttonR, .buttonG {
+  border-radius: 1vw;
+  border: none;
+  color: #000;
+  text-align: center;
+  font-size: 1.15vw;
+  padding: 15px;
+  width: 10%;
+  cursor: pointer;
+  margin: 5px;
+  transform: translateY(-2vw);
+}
+.buttonR:active, .buttonG:active {
+  transform: translateY(-1.5vw);
+  transition: 0.01s;
+}
+
+.buttonR {
+  background-color: #e40010;
+  box-shadow: -2px 5px #e490a0;
+}
+.buttonR:active {
+  box-shadow: -1px 2px #a45070;
+}
+.buttonR:hover {
+  background-color:#d40000;
+}
+
+.buttonG {
+  background-color: #007400;
+  box-shadow: -2px 5px #90b090;
+}
+.buttonG:active {
+  box-shadow: -1px 2px #709070;
+}
+.buttonG:hover {
+  background-color:#006400;
+}
+
+.seperator {
+  padding-top: 10px;
+  width: 100%;
+  font-family: osw, sans-serif;
+  font-size: 250%;
+  display: table;
+}
+
+.first {
+  display: table-cell;
+  color: black;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 5.5vw;
+}
+
+.song {
+	width: 100%;
+	height: 1000px;
+	border: 1px solid black;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+  background-color: white;
+}
+
+.break1 {
+  background: url(images/chimesSitePic1.jpg);
+  height: 45%;
+  width: 100%;
+  background-size:cover;
+  background-attachment: fixed;
+}
+
+.break2 {
+  background: url(images/chimesSitePic3.jpg);
+  height: 45%;
+  width: 100%;
+  background-size:cover;
+  background-attachment: fixed;
+}
+
+.break3 {
+  background: url(images/chimesSitePic4.jpg);
+  height: 45%;
+  width: 100%;
+  background-size:cover;
+  background-attachment: fixed;
+}
+
+.break4 {
+  background: url(images/chimesSitePic2.jpg);
+  height: 45%;
+  width: 100%;
+  background-size:cover;
+  background-attachment: fixed;
+}
+
+.footer {
+  background-color: #333333;
+  padding: 20px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color:#F9F3F4;
+}
+
+.embeded {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3%;
+}
+
+@media screen and (max-width: 768px) {
+  .content h1 {
+    font-size: 250%;
+  }
+
+  .btn {
+    font-size: 110%;
+    padding: 7px 15px;
+  }
+
+  .paragraph {
+    font-size: 130%;
+    line-height: 180%;
+    margin: 5%;
+  }
+
+  .aboutParagraph {
+    font-size: 100%;
+    line-height: 160%;
+    margin: 10%;
+  }
+
+  .mainLinks {
+    display: none;
+  }
+}
+
+@media only screen and (max-device-width: 1366px) {
+  .intro{
+    background-attachment: scroll;
+  }
+
+  #homepageBreak2  {
+    background-attachment: scroll;
+  }
+
+  #homepageBreak3 {
+    background-attachment: scroll;
+  }
+
+  #homepageBreak4  {
+    background-attachment: scroll;
+  }
+}
+
+@media screen and (max-width: 499px) {
+  .embeded iframe{
+    width: 270px;
+    height: 152px;
+  }
+} 
